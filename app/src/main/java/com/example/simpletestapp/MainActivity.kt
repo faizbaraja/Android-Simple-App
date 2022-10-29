@@ -10,6 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val buttonIbtisam = findViewById(R.id.ibtisamButton) as Button
+        buttonIbtisam.setOnClickListener {
+            val intent = Intent(this, IbtisamBarajaActivity::class.java)
+            startActivity(intent)
+        }
+
         val buttonFaiz = findViewById(R.id.faizButton) as Button
         buttonFaiz.setOnClickListener {
             val intent = Intent(this, FaizBarajaActivity::class.java)

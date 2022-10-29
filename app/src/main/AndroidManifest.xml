@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleTestApp">
         <activity
+            android:name=".IbtisamBarajaActivity"
+            android:exported="false" />
+        <activity
             android:name=".FaizBarajaActivity"
             android:exported="false" />
         <activity
