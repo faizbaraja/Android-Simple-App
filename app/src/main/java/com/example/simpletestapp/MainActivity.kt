@@ -15,5 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, IbtisamBarajaActivity::class.java)
             startActivity(intent)
         }
+
+        val buttonFaiz = findViewById(R.id.faizButton) as Button
+        buttonFaiz.setOnClickListener {
+            val intent = Intent(this, FaizBarajaActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

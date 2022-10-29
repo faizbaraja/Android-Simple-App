@@ -13,6 +13,9 @@
             android:name=".IbtisamBarajaActivity"
             android:exported="false" />
         <activity
+            android:name=".FaizBarajaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
